@@ -1,4 +1,4 @@
-var vid = document.getElementById("video");
+var vid = document.getElementById("bgvid");
 var pauseButton = document.querySelector("#polina button");
 
 if (window.matchMedia('(prefers-reduced-motion)').matches) {
@@ -18,3 +18,4 @@ vid.pause();
 // to capture IE10
 vidFade();
 });
+
