@@ -19,3 +19,6 @@ vid.pause();
 vidFade();
 });
 
+$('button').click(function(){
+  $('.icone-palette').toggle();
+});

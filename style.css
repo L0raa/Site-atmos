@@ -31,7 +31,7 @@
   border: none;
   cursor: pointer;
   background-color: inherit;
-
+  font-family: inherit;
 
 }
 
@@ -127,26 +127,29 @@ video {
   letter-spacing: .3rem;r
 }
 #container {
-  padding: 10px;
-  float: center;
+  font-family: Agenda-Light, Agenda Light, Agenda, sans-serif;
+  font-size: 8px;
+  color: white;
+  padding: 2rem;
   margin-top: 10px;
+  display: center;
+  align-items: center;
   overflow: hidden;
-  outline: none;
 }
 
-#container .plongez {
+#container button {
   display: block;
   padding: .4rem;
   border: none;
-  outline: none;
   margin: auto;
+  font-size: 1.3rem;
   background: rgba(255,255,255,0.23);
+  color: #fff;
   border-radius: 120px;
   cursor: pointer;
   transition: .3s background;
 }
-
-#container .plongez:hover {
+#container button:hover {
    background: rgba(0,0,0,0.5);
 }
 
@@ -154,16 +157,15 @@ video {
   height: 90px;
 }
 
-
-.icone-items-plus {
-  display: none;
-  z-index: 0;
-  position: absolute;
-
+#polina a {
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background;
 }
-
-#container:hover .icone-items-plus {
-  display: inline-flex;
+#polina a:hover{
+  background:rgba(0,0,0,0.9);
 }
 
 
